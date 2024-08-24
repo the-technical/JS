@@ -28,7 +28,7 @@ console.log(newString);
 const anotherString = gameName.slice(-8, 4) //isme negative daalo ya uske hisaab se kuch bhi yeh chl jaega
 console.log(anotherString);
 
-const newStringOne = "   hitesh    "
+const newStringOne = "   aman    "
 console.log(newStringOne); // yha normally without trim aa jaega whi spaces ke saath
 console.log(newStringOne.trim());  // ab trim kya krta woh ending me aur starting me jitni bhi spaces he na woh sb hata dega
 
@@ -40,4 +40,4 @@ console.log(url.replace('%20', '-')) // this function replaces %20 with hyphen w
 
 console.log(url.includes('sundar')) // It checks if the value put in the block include in there in the url or not if there gives boolean value
 
-console.log(gameName.split(' ')); //This splits the url or any string into two or more parts like before hyphen in this case and after hyphen
+console.log(url.split('/')); //This splits the url or any string into two or more parts like before hyphen in this case and after hyphen

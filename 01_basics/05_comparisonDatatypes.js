@@ -6,7 +6,7 @@
     console.log(2 <= 1)  */
 
 // comapring different datatypes
-console.log("2" > 1); //true
+console.log("2" > 1); //true, it directly converts that string into number and then checks for it..
 
 //When comparing null it will give true only when greater than or equal to : 
 // The reason is that an equality check == and comparisons > < >= <=  work differently. Comparisons convert null to a number, treating as 0 and then when comapred it give true while comapring directly like null==0 doesnt converts and directly compares so it gives false

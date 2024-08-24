@@ -1,6 +1,9 @@
 const accountId = 12345
 let accountEmail = "AmanGarg@google.com" //let helps overcoming the limitations of the var
 var accountPassword = "110823" //kindly dont use var as issue of the block scope and functional scope
+/* -> var is like one big, sometimes messy, pencil box that you carry around all day. It’s easy to get confused and pick the wrong pencil, but you’re allowed to use it anytime.
+   -> let is like having separate pencil boxes for each class, so you only use what you need when you need it, and everything stays organized and clear. */
+
 acccountCity = "Jaipur" //though js is safe to use any variable without using any let and var but prefer not to use this way
 let accountState; //ab JS me semicolon lgao na lagao aapki marzi
 //Agr aap JS me variable declare kre aur usse define na kre toh phir uska jb output nikale toh udhr "undefined" aata hai

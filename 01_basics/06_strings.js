@@ -3,7 +3,7 @@ const repoCount = 2
 
 // console.log(name + repoCount + " Value"); This looks very outdated way of using 
 
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); // This is somewhat considered as modern way as the code looks clean and nice.
+console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); // This is somewhat considered as modern way as the code looks clean and nice. Here we are using bakckticks and curly braces for using variables and directly writing in it.
 
 const gameName = new String('aman garg') //This si also the way of writing the strings 
 console.log(gameName); // The output here comes as [String: 'aman garg'] 

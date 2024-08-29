@@ -1,4 +1,4 @@
-const marvel_heroes = ["thor", "Ironman", "spiderman"] 
+ const marvel_heroes = ["thor", "Ironman", "spiderman"] 
 const dc_heroes = ["superman", "flash", "batman"]
 // defining two arrays 
 

@@ -24,16 +24,17 @@ const newArr = myArr.join() // This joins the whole array elements and then conv
 
 console.log(typeof myArr); //type = object
 console.log(typeof newArr); //type = string , comma separated
+console.log(newArr,myArr)
 
 // slice, splice
 
 console.log("A ", myArr);
 const myn1 = myArr.slice(1, 3) // it gives a section of array starting from index 1 and going to one less than index 3 which is index 2
-
 console.log(myn1);
+
 console.log("B ", myArr); // this gives normal array without slicing
-
-
 const myn2 = myArr.splice(1, 3) // this function also gives the section of arrays including the slicing section with the last index that is starting from 1 to 3 index unlike slicing which give s one less than the 3 index
+
+// splice krne ke baad original me bhi chnage hota hai 
 console.log("C ", myArr); // Also you should be knowing that this output cuts off the spliced section and gives the remaining section.
 console.log(myn2); // line 37 - output : [1,2,3] ; line 38 - output : C [0,4] // dekha original array manipulate hogya hai

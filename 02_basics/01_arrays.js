@@ -35,6 +35,6 @@ console.log(myn1);
 console.log("B ", myArr); // this gives normal array without slicing
 const myn2 = myArr.splice(1, 3) // this function also gives the section of arrays including the slicing section with the last index that is starting from 1 to 3 index unlike slicing which give s one less than the 3 index
 
-// splice krne ke baad original me bhi chnage hota hai 
+// splice krne ke baad original me bhi chnage hota hai isly jb c print kiya toh bche hue elements aagye..
 console.log("C ", myArr); // Also you should be knowing that this output cuts off the spliced section and gives the remaining section.
-console.log(myn2); // line 37 - output : [1,2,3] ; line 38 - output : C [0,4] // dekha original array manipulate hogya hai
+console.log(myn2); // line 40 - output : [1,2,3] ; line 39 - output : C [0,4,6] // dekha original array manipulate hogya hai

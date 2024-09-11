@@ -88,10 +88,11 @@ console.log(instructor); // yha toh usko humne hi bol dia course ke andr wale co
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
-// }
+// }.  // yeh json hai yeh ek api hai,( api maane apna kaam kis aur se krwana )  ab iska kuch naam nhi hoa , dikhta yeh bhi ek type ke object jesa hi hai, pr yeh object nhi hai isly yha keys ko bhi string format me lete 
 
 [
     {},
     {},
     {}
-]
+] // yeh dusra tarika hai json api ko rkhne ka arrays ke andr objects
+//for resources randomuser me api, json fromat checker(basic),etc..

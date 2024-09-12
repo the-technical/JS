@@ -89,6 +89,7 @@ console.log(instructor); // yha toh usko humne hi bol dia course ke andr wale co
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }.  // yeh json hai yeh ek api hai,( api maane apna kaam kis aur se krwana )  ab iska kuch naam nhi hoa , dikhta yeh bhi ek type ke object jesa hi hai, pr yeh object nhi hai isly yha keys ko bhi string format me lete 
+// To make sure JSON is written correctly and looks good, you can use tools called JSON formatters. These tools help you view and edit JSON in a clean, easy-to-read format. They also check if there are any mistakes in your JSON.
 
 [
     {},
